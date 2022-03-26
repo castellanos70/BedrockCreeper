@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:golden_axe",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:5}, {id:\"minecraft:fire_aspect\", lvl:2}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:netherite_axe",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:iron_axe",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:5}, {id:\"minecraft:knockback\", lvl:2}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:iron_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:knockback\", lvl:2}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:iron_ingot"
+        }
+      ]
+    }
+  ]
+}

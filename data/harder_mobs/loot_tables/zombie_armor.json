@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.4, "max": 0.9} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:thorns\", lvl:3}, {id:\"minecraft:protection\", lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.4, "max": 0.9} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:thorns\", lvl:3}, {id:\"minecraft:projectile_protection\", lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.4, "max": 0.9} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:thorns\", lvl:3}, {id:\"minecraft:fire_protection\", lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.4, "max": 0.9} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:thorns\", lvl:3}, {id:\"minecraft:protection\", lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.4, "max": 0.8} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:thorns\", lvl:3}, {id:\"minecraft:protection\", lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 9,
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": 0.1}
+          ]
+        }
+      ]
+    }
+  ]
+}

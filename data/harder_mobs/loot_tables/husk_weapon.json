@@ -1,0 +1,110 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_sword",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:5}, {id:\"minecraft:fire_aspect\", lvl:2}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.2, "max": 0.5} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:3}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.3, "max": 0.6} }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.3, "max": 0.6} }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:knockback\", lvl:2}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:dead_bush"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:copper_ingot"
+        }
+      ]
+    }
+  ]
+}
