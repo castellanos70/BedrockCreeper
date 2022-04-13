@@ -1,4 +1,4 @@
-tag @s add op_husk
+tag @s add op_mob
 execute if entity @p[level=17..] run loot replace entity @s weapon.mainhand loot harder_mobs:husk_weapon
 execute if entity @p[level=28..] run data modify entity @s AbsorptionAmount set value 15
 execute if entity @p[level=37..] run loot replace entity @s armor.feet loot harder_mobs:husk_boots

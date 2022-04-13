@@ -11,7 +11,7 @@
           "functions": [
             { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
             { "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:5}, {id:\"minecraft:fire_aspect\", lvl:2}]}"
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:5}, {id:\"minecraft:fire_aspect\", lvl:2}, {id:\"minecraft:unbreaking\", lvl:3}, {id:\"minecraft:mending\", lvl:1}]}"
             }
           ]
         },
@@ -22,7 +22,7 @@
           "functions": [
             { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
             { "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:5}]}"
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:5}, {id:\"minecraft:unbreaking\", lvl:3}, {id:\"minecraft:mending\", lvl:1}]}"
             }
           ]
         },
@@ -44,7 +44,7 @@
           "functions": [
             { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
             { "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:3}]}"
+              "tag": "{Enchantments:[{id:\"minecraft:sharpness\", lvl:3}, {id:\"minecraft:unbreaking\", lvl:3}, {id:\"minecraft:mending\", lvl:1}]}"
             }
           ]
         },

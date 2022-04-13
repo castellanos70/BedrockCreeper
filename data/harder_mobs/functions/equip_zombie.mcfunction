@@ -1,4 +1,4 @@
-tag @s add op_zombie
+tag @s add op_mob
 execute if entity @p[level=15..] run loot replace entity @s weapon.mainhand loot harder_mobs:zombie_weapon
 execute if entity @p[level=30..] run data modify entity @s AbsorptionAmount set value 20
 execute if entity @p[level=40..] run loot replace entity @s armor.chest loot harder_mobs:zombie_armor

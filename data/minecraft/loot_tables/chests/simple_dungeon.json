@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
-          "conditions": [{"condition": "minecraft:random_chance", "chance": 0.75}]
+          "conditions": [{"condition": "minecraft:random_chance", "chance": 0.85}]
         }
       ]
     },
@@ -30,7 +30,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:saddle",
-          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }]
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.85 }]
         }
       ]
     },
