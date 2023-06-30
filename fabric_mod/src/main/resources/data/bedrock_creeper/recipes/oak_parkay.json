@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PPP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "bedrock_creeper:oak_parkay",
+    "count": 5
+  }
+}
+

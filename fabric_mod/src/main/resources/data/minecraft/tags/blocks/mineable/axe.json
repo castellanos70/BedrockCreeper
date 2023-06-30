@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "bedrock_creeper:acacia_parkay",
+    "bedrock_creeper:birch_parkay",
+    "bedrock_creeper:oak_parkay",
+    "bedrock_creeper:spruce_parkay"
+  ]
+}
+

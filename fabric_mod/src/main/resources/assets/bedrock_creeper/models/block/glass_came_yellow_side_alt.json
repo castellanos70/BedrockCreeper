@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "bedrock_creeper:block/glass_came_top",
+    "pane": "bedrock_creeper:block/glass_came_yellow"
+  }
+}

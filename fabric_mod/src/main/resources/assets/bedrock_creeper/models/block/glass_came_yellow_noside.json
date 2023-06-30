@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "bedrock_creeper:block/glass_came_yellow"
+  }
+}

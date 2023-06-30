@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "bedrock_creeper:glass_came_blue",
+    "bedrock_creeper:glass_came_light_gray",
+    "bedrock_creeper:glass_came_red",
+    "bedrock_creeper:glass_came_green",
+    "bedrock_creeper:glass_came_white",
+    "bedrock_creeper:glass_came_yellow"
+  ]
+}
+
+

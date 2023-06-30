@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SV",
+    "  "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sandstone"
+    },
+    "V": {
+      "item": "minecraft:vine"
+    }
+  },
+  "result": {
+    "item": "bedrock_creeper:sandstone_mossy"
+  }
+}
+

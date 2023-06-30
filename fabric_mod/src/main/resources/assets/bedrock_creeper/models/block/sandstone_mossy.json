@@ -1,0 +1,10 @@
+    {
+      "parent": "block/cube_bottom_top",
+      "textures": {
+        "side": "bedrock_creeper:block/sandstone_mossy",
+        "bottom": "bedrock_creeper:block/sandstone_mossy_bottom",
+        "top": "bedrock_creeper:block/sandstone_mossy_top"
+      }
+    }
+
+
