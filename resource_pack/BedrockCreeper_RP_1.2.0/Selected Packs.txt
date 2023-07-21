@@ -1,0 +1,36 @@
+Vanilla Tweaks Resource Pack
+Version: 1.20
+Packs:
+	QuieterCows
+	QuieterBats
+	QuieterNetherPortals
+	StickyPistonSides
+	DirectionalDispensersDroppers
+	BetterObservers
+	DirectionalHoppers
+	VisualSaplingGrowth
+	VisualHoney
+	CompassLodestone
+	BrewingGuide
+	GroovyLevers
+	ClearBannerPatterns
+	MusicDiscRedstonePreview
+	HungerPreview
+	TransparentPumpkin
+	LowerShield
+	AlternateEnchantGlint
+	3DChains
+	3DLadders
+	3DDoors
+	3DRails
+	3DTrapdoors
+	3DIronBars
+	3DLilyPads
+	3DMushrooms
+	3DSunMoon
+	SmootherFont
+	WitherHearts
+	FancySunflowers
+	AccurateSpyglass
+	HDShieldBanners
+	WarmGlow

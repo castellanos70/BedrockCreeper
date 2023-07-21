@@ -1,0 +1,17 @@
+    # Survival:
+armor statues
+afk display
+multiplayer sleep
+durability ping
+nether portal coords
+coordinates hud
+villager workstation highlights
+
+    # Items:
+player head drops
+
+    # Mobs:
+larger phantoms
+more mob heads
+silence mobs
+villager death messages

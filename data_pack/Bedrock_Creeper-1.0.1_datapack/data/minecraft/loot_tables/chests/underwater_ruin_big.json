@@ -1,0 +1,139 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item", "name": "minecraft:horn_coral_block", "weight": 1,
+          "functions": [{"function": "minecraft:set_count", "count": { "min": 1, "max": 8 }}]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:fire_coral_block", "weight": 1,
+          "functions": [{"function": "minecraft:set_count", "count": { "min": 1, "max": 8 }}]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:bubble_coral_block", "weight": 1,
+          "functions": [{"function": "minecraft:set_count", "count": { "min": 1, "max": 8 }}]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:tube_coral_block", "weight": 1,
+          "functions": [{"function": "minecraft:set_count", "count": { "min": 1, "max": 8 }}]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:brain_coral_block", "weight": 1,
+          "functions": [{"function": "minecraft:set_count", "count": { "min": 1, "max": 8 }}]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item", "name": "minecraft:heart_of_the_sea",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item", "weight": 1,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.5 }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:loyalty\", lvl:3}, {id:\"minecraft:channeling\", lvl:1}, {id:\"minecraft:impaling\", lvl:5}, {id:\"minecraft:unbreaking\", lvl:3}, {id:\"minecraft:mending\", lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item", "weight": 1,
+          "name": "minecraft:trident"
+        },
+        {
+          "type": "minecraft:item", "weight": 1,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.5 }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:riptide\", lvl:3}, {id:\"minecraft:impaling\", lvl:5}, {id:\"minecraft:unbreaking\", lvl:3}, {id:\"minecraft:mending\", lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item", "weight": 1,
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.5 }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:protection\", lvl:4}, {id:\"minecraft:thorns\", lvl:3}, {id:\"minecraft:unbreaking\", lvl:3}, {id:\"minecraft:mending\", lvl:1}, {id:\"minecraft:feather_falling\", lvl:4}, {id:\"minecraft:depth_strider\", lvl:3}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item", "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count", "count": { "min": 10, "max": 64 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item", "name": "minecraft:dried_kelp_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count", "count": { "min": 1, "max": 64 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item", "name": "minecraft:prismarine_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count", "count": { "min": 0, "max": 64 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item", "name": "minecraft:prismarine_crystals",
+          "functions": [
+            {
+              "function": "minecraft:set_count", "count": { "min": 0, "max": 32 }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

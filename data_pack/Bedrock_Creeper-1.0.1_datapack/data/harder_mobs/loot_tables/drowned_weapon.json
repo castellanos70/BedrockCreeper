@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:trident",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.5, "max": 0.99} }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:trident",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:loyalty\", lvl:3}, {id:\"minecraft:channeling\", lvl:1}, {id:\"minecraft:impaling\", lvl:5}, {id:\"minecraft:unbreaking\", lvl:3}, {id:\"minecraft:mending\", lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:trident",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.25, "max": 0.9} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:loyalty\", lvl:3}, {id:\"minecraft:channeling\", lvl:1}, {id:\"minecraft:impaling\", lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:trident",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.25, "max": 0.9} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:loyalty\", lvl:3}, {id:\"minecraft:impaling\", lvl:5}, {id:\"minecraft:mending\", lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:trident",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:loyalty\", lvl:3}, {id:\"minecraft:channeling\", lvl:1}, {id:\"minecraft:impaling\", lvl:3}, {id:\"minecraft:unbreaking\", lvl:3}, {id:\"minecraft:mending\", lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:trident",
+          "functions": [
+            { "function": "minecraft:set_damage", "damage": { "min": 0.1, "max": 0.6} },
+            { "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:loyalty\", lvl:2}, {id:\"minecraft:impaling\", lvl:3}, {id:\"minecraft:mending\", lvl:1}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

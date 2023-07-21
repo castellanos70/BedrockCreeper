@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "bcm",
+  "id": "bedrock_creeper",
   "version": "${version}",
 
   "name": "BedrockCreeperMod",
@@ -14,16 +14,19 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/bcm/icon.png",
+  "icon": "assets/bedrock_creeper/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.BedrockCreeperMod"
+      "com.bedrock_creeper.BedrockCreeperMod"
+    ],
+    "client": [
+      "com.bedrock_creeper.BedrockCreeperClientMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "bedrock_creeper.mixins.json"
   ],
 
   "depends": {

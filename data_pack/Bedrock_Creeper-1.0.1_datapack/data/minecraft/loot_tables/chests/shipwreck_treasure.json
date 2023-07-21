@@ -1,0 +1,186 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count", "count": { "min": 0, "max": 64 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glistering_melon_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count", "count": { "min": 2, "max": 16}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish_bucket",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish_bucket",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:mending\", lvl:1}]}"
+            }
+          ],
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:unbreaking\", lvl:3}]}"
+            }
+          ],
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:protection\", lvl:4}]}"
+            }
+          ],
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:fire_protection\", lvl:4}]}"
+            }
+          ],
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:blast_protection\", lvl:4}]}"
+            }
+          ],
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:projectile_protection\", lvl:4}]}"
+            }
+          ],
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item", "name": "minecraft:white_concrete", "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:gray_concrete", "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:black_concrete", "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:blue_concrete", "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:green_concrete", "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:red_concrete", "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:orange_concrete", "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+        },
+        {
+          "type": "minecraft:item", "name": "minecraft:lime_concrete", "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+        }
+      ]
+    }
+  ]
+}
