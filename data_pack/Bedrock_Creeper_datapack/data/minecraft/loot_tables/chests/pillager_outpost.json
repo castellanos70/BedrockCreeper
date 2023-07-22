@@ -133,32 +133,23 @@
       "entries": [
         {
           "type": "minecraft:item", "weight": 1, 
-          "name": "minecraft:iron_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count", "count": { "min": 0, "max": 16 }
-            }]
-    },
-    {
-      "type": "minecraft:item", "weight": 1, "name": "minecraft:netherite_upgrade_smithing_template",
-      "functions": [{"function": "minecraft:set_count", "count": 1}]
-     },
-     {
-      "type": "minecraft:item", "weight": 1, "name": "minecraft:sentry_armor_trim_smithing_template",
-      "functions": [{"function": "minecraft:set_count", "count": 1}]
-     }
-    ]
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "minecraft:copper_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count", "count": { "min": 0, "max": 16 }
-            }
-          ]
+          "functions": [{"function": "minecraft:set_count", "count": { "min": 2, "max": 16 }}]
+        },
+        {
+          "type": "minecraft:item", "weight": 1, 
+          "name": "minecraft:iron_block",
+          "functions": [{"function": "minecraft:set_count", "count": { "min": 2, "max": 32 } }]
+        },
+        {
+          "type": "minecraft:item", "weight": 1,
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "functions": [{"function": "minecraft:set_count", "count": 1}]
+        },
+        {
+          "type": "minecraft:item", "weight": 1,
+          "name": "minecraft:sentry_armor_trim_smithing_template",
+          "functions": [{"function": "minecraft:set_count", "count": 1}]
         }
       ]
     }
