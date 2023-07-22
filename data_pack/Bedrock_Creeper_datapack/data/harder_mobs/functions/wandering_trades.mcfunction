@@ -1,0 +1,56 @@
+tag @s add op_mob
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:5b,maxUses:6,uses:0,buy:{id:"minecraft:emerald",Count:50b},sell:{id:"minecraft:sponge",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:5b,maxUses:1,uses:0,buy:{id:"minecraft:emerald",Count:32b},sell:{id:"minecraft:wither_skeleton_skull",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:2b,maxUses:12,uses:0,buy:{id:"minecraft:emerald",Count:4b},sell:{id:"minecraft:blaze_rod",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:5b,maxUses:12,uses:0,buy:{id:"minecraft:emerald",Count:6b},sell:{id:"minecraft:magma_cream",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:1b,maxUses:32,uses:0,buy:{id:"minecraft:emerald",Count:8b},sell:{id:"minecraft:gilded_blackstone",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:2b,maxUses:24,uses:0,buy:{id:"minecraft:emerald",Count:6b},sell:{id:"minecraft:crying_obsidian",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:2b,maxUses:24,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:obsidian",Count:2b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:2b,maxUses:12,uses:0,buy:{id:"minecraft:emerald",Count:4b},sell:{id:"minecraft:sea_lantern",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:copper_ingot",Count:8b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:2b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:gold_ingot",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:dragon_breath",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:5b,maxUses:4,uses:0,buy:{id:"minecraft:emerald",Count:64b},sell:{id:"minecraft:ancient_debris",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:5b,maxUses:2,uses:0,buy:{id:"minecraft:emerald",Count:16b},sell:{id:"minecraft:wither_rose",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:3b,maxUses:2,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:calcite",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:2b,maxUses:8,uses:0,buy:{id:"minecraft:emerald",Count:6b},sell:{id:"minecraft:end_rod",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:5b,maxUses:2,uses:0,buy:{id:"minecraft:emerald",Count:64b},sell:{id:"minecraft:shulker_shell",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:2b,maxUses:16,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:sea_pickle",Count:1b}}	
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:2b,maxUses:6,uses:0,buy:{id:"minecraft:emerald",Count:3b},sell:{id:"minecraft:turtle_egg",Count:1b}}	
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:4b,maxUses:3,uses:0,buy:{id:"minecraft:emerald",Count:8b},sell:{id:"minecraft:ghast_tear",Count:1b}}	
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:3b,maxUses:12,uses:0,buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:sticky_piston",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:3b,maxUses:12,uses:0,buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:observer",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:3b,maxUses:32,uses:0,buy:{id:"minecraft:emerald",Count:4b},sell:{id:"minecraft:golden_apple",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:3b,maxUses:8,uses:0,buy:{id:"minecraft:emerald",Count:10b},sell:{id:"minecraft:enchanted_golden_apple",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:3b,maxUses:16,uses:0,buy:{id:"minecraft:emerald",Count:4b},sell:{id:"minecraft:echo_shard",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:3b,maxUses:12,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:tadpole_bucket",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random05] Offers.Recipes append value {rewardExp:5b,maxUses:2,uses:0,buy:{id:"minecraft:emerald",Count:60b},sell:{id:"minecraft:villager_spawn_egg",Count:1b}}
+
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:white_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:orange_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:magenta_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:light_blue_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:yellow_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:lime_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:pink_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:gray_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:light_gray_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:cyan_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:purple_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:blue_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:brown_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:green_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:red_concrete",Count:4b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:1b,maxUses:64,uses:0,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:black_concrete",Count:4b}}
+
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:2b,maxUses:16,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:tube_coral_fan",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:2b,maxUses:16,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:brain_coral_fan",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:2b,maxUses:16,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:bubble_coral_fan",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:2b,maxUses:16,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:fire_coral",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:2b,maxUses:16,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:horn_coral",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:2b,maxUses:16,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:tube_coral",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:2b,maxUses:16,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:brain_coral",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:2b,maxUses:16,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:bubble_coral",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:2b,maxUses:16,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:fire_coral",Count:1b}}
+data modify entity @s[predicate=harder_mobs:random02] Offers.Recipes append value {rewardExp:2b,maxUses:16,uses:0,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:horn_coral",Count:1b}}
+
