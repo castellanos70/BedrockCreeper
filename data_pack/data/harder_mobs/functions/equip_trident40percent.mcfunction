@@ -1,1 +1,0 @@
-execute as @s if predicate harder_mobs:random40 run loot replace entity @s weapon.mainhand loot harder_mobs:drowned_weapon
