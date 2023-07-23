@@ -4,11 +4,14 @@ Packs:
 	DoubleSlabFix
 	ItemStitchingFix
 	ItemHoldFix
+	QuieterSheep
+	QuieterGoats
+	QuieterLlamas
+	QuieterVillagers
 	QuieterCows
 	QuieterCats
 	QuieterBees
 	QuieterChickens
-	HardcoreDarkness
 	SmootherFont
 	3DRails
 	3DLadders
@@ -22,7 +25,6 @@ Packs:
 	LowerShield
 	TransparentPumpkin
 	StickyPistonSides
-	DirectionalHoppers
 	DirectionalDispensersDroppers
 	GroovyLevers
 	VisualSaplingGrowth
@@ -32,10 +34,14 @@ Packs:
 	BetterObservers
 	ClearBannerPatterns
 	HungerPreview
-	VisibleTripwires
 	MusicDiscRedstonePreview
+	DirectionalHoppers
+	NoteblockBanners
+	QuieterMinecarts
 	QuieterRain
 	QuieterNetherPortals
+	VariatedMushroomBlocks
+	VariatedGrass
 	VariatedPlanks
 	VariatedCobblestone
 	VariatedBricks
@@ -43,5 +49,11 @@ Packs:
 	VariatedBookshelves
 	VariatedEndStone
 	FancySunflowers
+	EnderDragonElytra
 	HDShieldBanners
 	AccurateSpyglass
+	WarmGlow
+	HardcoreDarkness
+
+Combined packs:
+	HardcoreDarkness+WarmGlow
